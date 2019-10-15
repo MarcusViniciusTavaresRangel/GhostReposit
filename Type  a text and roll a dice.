@@ -12,9 +12,8 @@ function oi(event) {
 	  
    		 if(x ==="/d6" )
   		  {
-			let min =1; 
-			let max = 6; 
-			let roll = document.getElementById("demo1").innerHTML = Math.floor(Math.random() *(max-min +1)+min);
+			
+			let roll = document.getElementById("demo1").innerHTML = Math.floor(Math.random() *6)+1);
 	 
 			document.getElementById("demo1").innerHTML =roll;
 			return;
