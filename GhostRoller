@@ -1,0 +1,193 @@
+
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+<title>Rolador</title>
+
+
+<style>
+h1 {
+font: 35px 'IM Fell French Canon SC', serif;
+color:rgba(18, 75, 96,0.7);
+margin: 1px 0 1px 12px;
+text-shadow: -1px 1px 5px  rgba(67, 77, 114, 0.7);
+
+}
+
+
+
+div.dado{  
+
+ width:50px;
+ height:50px;
+ text-align:center;
+ padding:10px;
+ float:left;
+ margin:1px;
+}
+
+#r100, #r20, #r12, #r10, #r08, #r06,#r04{
+ 
+ margin:7px auto;
+ width:30px;
+        height:17px;
+ padding:2px;
+
+}
+
+.dd:hover{
+background: #fff;
+ color:#14773f;
+ border:1px solid #7de8ab;
+ border-radius:10px;
+ display: inline-flex;
+ box-shadow: 2px 2px 2px 1px rgb(168, 189, 224);
+ text-shadow: 1px 1px 1px #d5e2db;
+}
+.dd:active {
+  background-color: #3e8e41;
+  box-shadow: 0 1px #666;
+  
+}
+.dd{
+ background: #14773f;
+ color:#fff;
+ border:1px solid #7de8ab;
+ border-radius:10px;
+ display: inline-flex;
+ box-shadow: 2px 2px 2px 1px rgb(168, 189, 224);
+ text-shadow: 1px 1px 1px #d5e2db;
+}
+</style>
+<script>
+
+
+
+
+function dCem(){
+  let min = 1;
+  let max = 101;
+  document.getElementById("r100").innerHTML = Math.floor(Math.random() *(max-min)+min);
+var dcem = document.getElementById("r100").innerHTML = Math.floor(Math.random() *(max-min)+min); 
+
+ if( dcem == 100 ){document.getElementById("r100").innerHTML = ("100! GG!"); }
+
+  
+
+}
+
+function dVinte(){
+  let min = 1;
+  let max = 21;
+  document.getElementById("r20").innerHTML = Math.floor(Math.random() *(max-min)+min);
+  var dvinte = document.getElementById("r20").innerHTML = Math.floor(Math.random() *(max-min)+min); 
+
+ if( dvinte == 20 ){document.getElementById("r20").innerHTML = ("20! GG!"); }
+ 
+}
+
+
+function dDoze(){
+  let min = 1;
+  let max = 13;
+  document.getElementById("r12").innerHTML = Math.floor(Math.random() *(max-min)+min);
+  var ddoze = document.getElementById("r12").innerHTML = Math.floor(Math.random() *(max-min)+min); 
+
+ if( ddoze == 12 ){document.getElementById("r12").innerHTML = ("12! GG!"); }
+
+}
+
+function dDez(){
+  let min = 1;
+  let max = 11;
+  document.getElementById("r10").innerHTML = Math.floor(Math.random() *(max-min)+min);
+  var ddez = document.getElementById("r10").innerHTML = Math.floor(Math.random() *(max-min)+min); 
+
+ if( ddez == 10 ){document.getElementById("r10").innerHTML = ("10! GG!"); }
+ 
+}
+
+function dOito(){
+  let min = 1;
+  let max = 9;
+  document.getElementById("r08").innerHTML = Math.floor(Math.random() *(max-min)+min);
+  var doito = document.getElementById("r08").innerHTML = Math.floor(Math.random() *(max-min)+min); 
+
+ if( doito == 8 ){document.getElementById("r08").innerHTML = ("8! GG!"); }
+ 
+}
+
+function dSeis(){
+  var min = 1;
+  var max = 7;
+  
+var dseis = document.getElementById("r06").innerHTML = Math.floor(Math.random() *(max-min)+min); 
+
+ if( dseis == 6 ){document.getElementById("r06").innerHTML = ("6! GG!"); }
+ 
+}
+
+function dQuatro(){
+  var min = 1;
+  var max = 5;
+  
+var dquatro = document.getElementById("r04").innerHTML = Math.floor(Math.random() *(max-min)+min); 
+
+ if( dquatro == 4 ){document.getElementById("r04").innerHTML = ("4!GG!");}
+
+}
+ 
+
+</script>
+<link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC" rel="stylesheet">
+</head>
+
+
+<body>
+ 
+ <h1>
+ GhostRoller</h1>
+<div class="dado">
+<button class="dd" onclick="dCem();" >d100</button><br />
+     <div id="r100">
+ </div>
+</div>
+ <div class="dado">
+  <button class="dd" onclick="dVinte();" >d20</button><br />
+     <div id="r20"></div>
+</div>
+<div class="dado">
+<button class="dd" onclick="dDoze();" >d12</button><br />
+     <div id="r12">
+ </div>
+</div>
+<div class="dado">
+<button class="dd" onclick="dDez();" >d10</button><br />
+     <div id="r10">
+ </div>
+</div>
+<div class="dado">
+<button class="dd" onclick="dOito();" >d08</button><br />
+           <div id="r08">
+ </div>
+</div>
+<div class="dado">
+<button class="dd" onclick="dSeis();" >d06</button><br />
+     <div id="r06">
+ </div>
+</div>
+
+<div class="dado">
+<button class="dd" onclick="dQuatro();" >d04</button><br />
+     <div id="r04">
+ </div>
+</div>
+</body>
+
+
+
+</html>
+ 
