@@ -1,5 +1,5 @@
 //Coloca os Bônus_penalidades dos atributos
-//Puts bonus_penalties on Old Dragon atributes
+//Puts bonus_penalties on Old Dragon attributes
 function mod(){
 var x = document.getElementById('For').value;
 var y = document.getElementById('modfor');
