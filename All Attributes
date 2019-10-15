@@ -1,0 +1,64 @@
+<html lang="pt-br">
+
+ <head>
+  
+
+  <title>Oioi</title>
+ 
+      <head>
+       
+ <style>
+         
+         .atrb{
+                height:25px;
+          border: 1px solid black;
+          width:30px;
+  
+          margin:0px 0px 2px 2px;}
+          
+         }
+
+           #atrba,#atrbb,#atrbc,#atrbd,#atrbe,#atrbf{text-align:center; padding:auto; width:25px;
+          height:25px;
+          border: 1px solid black;
+         
+          margin:0px 0px 2px 2px;}
+        </style>
+        <script>
+function joga(){
+        let min = 1;
+        let max = 7;
+        document.getElementById("atrba").innerHTML = (Math.floor(Math.random() *(max-min)+min)) + (Math.floor(Math.random() *(max-min)+min)) + (Math.floor(Math.random() *(max-min)+min)) ;
+document.getElementById("atrbb").innerHTML = (Math.floor(Math.random() *(max-min)+min)) + (Math.floor(Math.random() *(max-min)+min)) + (Math.floor(Math.random() *(max-min)+min)) ;
+                                document.getElementById("atrbc").innerHTML = (Math.floor(Math.random() *(max-min)+min)) + (Math.floor(Math.random() *(max-min)+min)) + (Math.floor(Math.random() *(max-min)+min)) ;
+                                document.getElementById("atrbd").innerHTML = (Math.floor(Math.random() *(max-min)+min)) + (Math.floor(Math.random() *(max-min)+min)) + (Math.floor(Math.random() *(max-min)+min)) ;
+                                document.getElementById("atrbe").innerHTML = (Math.floor(Math.random() *(max-min)+min)) + (Math.floor(Math.random() *(max-min)+min)) + (Math.floor(Math.random() *(max-min)+min)) ;
+                                document.getElementById("atrbf").innerHTML = (Math.floor(Math.random() *(max-min)+min)) + (Math.floor(Math.random() *(max-min)+min)) + (Math.floor(Math.random() *(max-min)+min)) ;}
+
+                                
+
+
+        </script> 
+     </head>
+
+   <body>
+    
+     <button  onclick="joga()" >Jogue!</button><br /><br />
+<label >Força: </label>   <div  class="atrb" id="atrba">
+</div> 
+<label>Destreza: </label><div class="atrb" id="atrbb">
+</div>
+<label>Constituição: </label><div class="atrb" id="atrbc">
+</div>
+<label>Inteligência: </label><div class="atrb" id="atrbd">
+</div>
+<label>Sabedoria: </label><div class="atrb" id="atrbe">
+</div>
+<label>Carisma: </label><div class="atrb" id="atrbf">
+
+</div>
+
+
+</body>  
+
+</html>
