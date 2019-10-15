@@ -1,0 +1,31 @@
+<script>
+function oi(event) {
+  
+  
+var x = document.getElementById("demo").value;
+  
+  if (event.keyCode==13 ){document.getElementById("demo1").innerHTML = x ;}
+  
+  
+  
+}
+function dseis(){
+	var min =1;
+    var max = 6;
+    var roll = document.getElementById("demo4").innerHTML = Math.floor(Math.random() *(max-min +1)+min);}
+    var x = document.getelementbyId("demo").value;
+ if (x ==="/d6" || event.keyCode==13 ){document.getElementById("demo4").innerHTML =roll;}
+
+</script>
+</head>
+
+<body >
+
+<p><b>Note:</b> Make sure the right frame has focus when trying this example!</p>
+
+<p>Click on this page, and press a key on your keyboard.</p>
+
+<input id="demo" onkeydown="oi(event); ">
+<input id="demo2" onkeydown="dseis();">
+<p id="demo1"></p>
+<p id="demo4"></p>
