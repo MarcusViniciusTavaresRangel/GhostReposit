@@ -1,7 +1,12 @@
 <!DOCTYPE html>
-<meta UTF-8>
-
-<title> Login | Cadastro </title>
+<html lang="pt-br">
+<title>Login | Cadastro</title>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="estilo.css" media="All and (color), projection and (color)">
+<link href="https://fonts.googleapis.com/css?family=Inria+Serif|Kulim+Park&display=swap" rel="stylesheet">
 
 <head>
 <style type="text/css">
