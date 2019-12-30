@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<meta UTF-8>
+
+<title> Login | Cadastro </title>
+
+<head>
+<style type="text/css">
+	ul li {list-style:none;}
+	
+
+button {
+	border: none;
+	background-color: white;
+	display:inline;}	 
+</style>
+
+
+
+<head>
+
+
+<body>
+	<div style="position: relative; top: 0; left: 0;">
+		<div onclick="mostra();"> <strong>Login</strong></div>
+		  	<div id="formlogin" style="display:none;">
+				<form action="" method="">
+					<strong>e-mail:</strong><br>
+					<input type="text" name="" maxlength="" required="required" ><br>
+
+					<strong>senha:</strong><br>
+		   	    	<input type="text" name="" maxlength="25" required="required"><br>
+		   	    	
+		   	    	<button type="submit"><strong>entrar</strong></button>	
+				</form>
+		</div>	
+	</div>
+	
+	<div style="position: relative; top: -18px; left: 60px;">
+		<div onclick="mostra1();"> <strong>Cadastro</strong></div>
+		  	<div id="formcadas" style="display:none;">
+				<form action="" method="">
+					<strong>e-mail:</strong><br>
+					<input type="text" name="" maxlength="" required="required" ><br>
+
+					<strong>senha:</strong><br>
+		   	    	<input type="text" name="" maxlength="25" required="required"><br>
+		   	    	
+		   	    	<button type="submit"><strong>cadastrar</strong></button>	
+				</form>
+		</div>	
+	</div>
+
+<div class="logado"></div>
+<div class="cadastrado"></div>
+
+
+
+
+
+</body>
+<script type="text/javascript">
+	function mostra(){
+		var x = document.getElementById("formlogin");
+		if (x.style.display === "none"){x.style.display = "inline-block"; }
+		else {x.style.display = "none";}
+	}
+	function mostra1(){
+		var x = document.getElementById("formcadas");
+		if (x.style.display === "none"){x.style.display = "inline-block"; }
+		else {x.style.display = "none";}
+	}
+	
+</script>
+</hmtl>
