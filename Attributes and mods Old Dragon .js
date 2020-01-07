@@ -19,6 +19,6 @@ else{
         y.value = "";
     }
 }
-input.onblur = mod;
+
 
 
