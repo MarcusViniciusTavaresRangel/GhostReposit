@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta spellcheck="true">
+<meta  name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="http://www.w3school.com/w3css/4/w3.css">
+<link rel="stylesheet" href="codecss.css" media="All and (color), projection and (color)">
+<script src="codejs.js"></script>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+<title></title>
+<head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:98%;
+    padding: 1em;
+}
+.blc {
+    width: 98%;
+    margin-bottom: 2px;
+    border: 1px solid black;
+    padding: 2px;
+    
+}
+
+.blcont{
+    margin: 2px;
+    padding: 2px;
+    position: relative;
+    width: 25%;
+    float: left;
+    
+}
+.txtcenter{
+    text-align: center;
+
+}
+.img{
+    margin:2px;
+    float: left;
+    position: relative;
+    width: 250px;
+    height:100px;
+}
+</style>
+
+</head>
+
+<body>
+<div class="blc txtcenter">
+   	<h1>SITE DE TESTE</h1>
+</div>
+<div class="blc" style=" position:relative;" >
+	<img src="img1.jpg" style="width:70%">
+	<div style=" position:relative; width:30%; float:right; left: 2px;">
+		<h3 >oioioi</h3>
+		<p style="font-size: 10px;overflow: hidden;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at aliquam tellus. Maecenas lacinia tristique felis, ut sodales velit facilisis id. <a href="#">Leia mais...<a/> </p>
+	</div>	
+</div>
+
+
+</body>
+</html>
