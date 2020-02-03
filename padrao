@@ -1,28 +1,30 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
-<meta spellcheck="true">
-<meta  name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="http://www.w3school.com/w3css/4/w3.css">
-<link rel="stylesheet" href="estilo.css" media="All and (color), projection and (color)">
-<script src="codejs.js"></script>
-<script src="https://www.w3schools.com/lib/w3.js"></script>
-	</head>
-		<body>
-			<h1 id="lala">Qual o seu nome, estranho?</h1>
-			<input id="nome_comeco" type="text" name="" onkeydown="comeco();">
-				<div >
-					<button id="myBtn" type="button" onkeydown="ola();" onclick="ola();" autofocus >Try it</button>
-					<p id="demo"></p>
-				</div>
-				<script type="text/javascript">
-									function comeco(){
-						var nome = document.getElementById("nome_comeco").value;
-           	if (event.keyCode == 13){ document.getElementById("lala").innerHTML= "Ainda bem que você sabe seu nome " +
-						"<span style='color:red'>" + nome +"</span>" + "!"}
+<head>
+	<title>Page Title</title>
+	<meta charset="UTF-8">
+	<meta spellcheck="true">
+	<meta  name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="http://www.w3school.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="estilo.css" media="All and (color), projection and (color)">
+	<script src="codejs.js"></script>
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<body>
+	<h1 id="lala">Qual o seu nome, estranho?</h1>
+	<input id="nome_comeco" type="text" name="" onkeydown="comeco();">
+	<div >
+		<button id="myBtn" type="button" onkeydown="ola();" onclick="ola();" autofocus >Try it</button>
+		<p id="demo"></p>
+	</div>
+				
+			
+						
+</body>
+<script type="text/javascript">
+function comeco(){
+var nome = document.getElementById("nome_comeco").value;
+if (event.keyCode == 13){ document.getElementById("lala").innerHTML= "Ainda bem que você sabe seu nome " + "<span style='color:red'>" + nome +"</span>" + "!"}
      							
  
-				</script>
-			</body>
-						
-				</body>
-			</html>
+</script>
+</html>
