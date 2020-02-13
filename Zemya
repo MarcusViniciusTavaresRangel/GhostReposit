@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+	<title>Page Title</title>
+	<meta charset="UTF-8">
+	<meta spellcheck="true">
+	<meta  name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="http://www.w3school.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="codecss.css" media="All and (color), projection and (color)">
+	<script src="codejs.js"></script>
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+	<style type="text/css">
+		
+	</style>
+</head>
+	<body>
+		<div class="cont txtgde">
+			<h1>Zemya</h1>
+				<div id="navegaum" class="navum" >
+					<a href="#" >Mundo</a>
+					<a href="#" >Personagens</a>
+					<a href="#" >Hall da fama</a>
+				</div>
+		</div>
+			<div id="fichaladrao" class="cont" >
+				<h1 style="text-align: left; background-color:#9fa8c9; " class="txtmtogde">Marth</h1>
+				<img src="https://i.pinimg.com/originals/a8/01/15/a80115478ad1f024f11e348618d1f489.jpg" class=" contmnmo2 imagemclasse" style="position: relative; width:300px; height:250px; " />
+				<div class="cont3" style="position:relative; top:-110px; right:100px;color:#a8a13b; text-align: left;" >
+						<p class="txtgde">For</p>  
+						<p class="txtgde">Des</p>  
+						<p class="txtgde">Con</p>  
+						<p class="txtgde">Int</p>  
+						<p class="txtgde">Sab</p>  
+						<p class="txtgde">Car</p>  
+
+				</div>
+
+				<div class="cont3 " style="position:relative; top:-100px; right:500px; text-align: left;"  >
+						 <div class="cont2" style="margin-top:16px; display:inline-block; "><input id="FOR" class="inpatri txtgde" maxlength="2"><br></div>
+						 <div class="cont2" style="margin-top:16px; display:inline-block; "><input id="DES" class="inpatri txtgde" maxlength="2"><br></div>
+						 <div class="cont2" style="margin-top:16px; display:inline-block; "><input id="INT" class="inpatri txtgde" maxlength="2"><br></div>
+						 <div class="cont2" style="margin-top:16px; display:inline-block; "><input id="SAB" class="inpatri txtgde" maxlength="2"><br></div>
+						 <div class="cont2" style="margin-top:16px; display:inline-block; "><input id="CAR" class="inpatri txtgde" maxlength="2"><br></div>
+						 <div class="cont2" style="margin-top:16px; display:inline-block; "><input id="CON" class="inpatri txtgde" maxlength="2"><br></div>
+				</div>		 
+				
+				
+				
+			</div>	
+
+					
+	</body>
+
+
+
+
+<script type="text/javascript">
+	
+</script>
+
+</html>	
