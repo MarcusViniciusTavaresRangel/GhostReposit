@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-	<title>Page Title</title>
+	<title>Zemya</title>
 	<meta charset="UTF-8">
 	<meta spellcheck="true">
 	<meta  name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
 	<script src="codejs.js"></script>
 	<script src="https://www.w3schools.com/lib/w3.js"></script>
 	<style type="text/css">
-		
+
 	</style>
 </head>
 	<body>
@@ -21,40 +21,43 @@
 					<a href="#" >Hall da fama</a>
 				</div>
 		</div>
-			<div id="fichaladrao" class="cont" >
-				<h1 style="text-align: left; background-color:#9fa8c9; " class="txtmtogde">Marth</h1>
-				<img src="https://i.pinimg.com/originals/a8/01/15/a80115478ad1f024f11e348618d1f489.jpg" class=" contmnmo2 imagemclasse" style="position: relative; width:300px; height:250px; " />
-				<div class="cont3" style="position:relative; top:-110px; right:100px;color:#a8a13b; text-align: left;" >
-						<p class="txtgde">For</p>  
-						<p class="txtgde">Des</p>  
-						<p class="txtgde">Con</p>  
-						<p class="txtgde">Int</p>  
-						<p class="txtgde">Sab</p>  
-						<p class="txtgde">Car</p>  
+			<div id="fichaladrao" class="ficha"  >
+				<div>
+					<p class="txtgde" style="display: inline">Marth</p>
+					<p style="display: inline"> Ladrão 7</p>
+				</div>	
+				
+				<div class="txtgde" >
+						<p class="txtleft">For</p>  
+						<p class="txtleft">Des</p>  
+						<p class="txtleft">Con</p>  
+						<p class="txtleft">Int</p>  
+						<p class="txtleft">Sab</p>  
+						<p class="txtleft">Car</p>  
 
 				</div>
 
-				<div class="cont3 " style="position:relative; top:-100px; right:500px; text-align: left;"  >
-						 <div class="cont2" style="margin-top:16px; display:inline-block; "><input id="FOR" class="inpatri txtgde" maxlength="2"><br></div>
-						 <div class="cont2" style="margin-top:16px; display:inline-block; "><input id="DES" class="inpatri txtgde" maxlength="2"><br></div>
-						 <div class="cont2" style="margin-top:16px; display:inline-block; "><input id="INT" class="inpatri txtgde" maxlength="2"><br></div>
-						 <div class="cont2" style="margin-top:16px; display:inline-block; "><input id="SAB" class="inpatri txtgde" maxlength="2"><br></div>
-						 <div class="cont2" style="margin-top:16px; display:inline-block; "><input id="CAR" class="inpatri txtgde" maxlength="2"><br></div>
-						 <div class="cont2" style="margin-top:16px; display:inline-block; "><input id="CON" class="inpatri txtgde" maxlength="2"><br></div>
+				<div class=""  >
+						 <div class="" ><input id="FOR" class="inpatri" maxlength="2"><br></div>
+						 <div class="" ><input id="DES" class="inpatri" maxlength="2"><br></div>
+						 <div class="" ><input id="INT" class="inpatri" maxlength="2"><br></div>
+						 <div class="" ><input id="SAB" class="inpatri" maxlength="2"><br></div>
+						 <div class="" ><input id="CAR" class="inpatri" maxlength="2"><br></div>
+						 <div class="" ><input id="CON" class="inpatri" maxlength="2"><br></div>
 				</div>		 
-				
-				
-				
+
+
+
 			</div>	
 
-					
+
 	</body>
 
 
 
 
 <script type="text/javascript">
-	
+
 </script>
 
 </html>	
