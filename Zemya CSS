@@ -1,206 +1,169 @@
+    *{
+        box-sizing:border-box;
+        }
+body{
+    width:90%;
+}
+        a, a:hover, a:active, a:visited{
+        text-decoration: none;
+        padding: 2px;
+    }
+
+    #navegaum a{
+        
+        background-color:#9ccfff;
+        color:white;
+        transition-duration: 0.3s;
+    }
+    #navegaum a:hover{
+        background-color:#034c91;
+        color:white;
+
+    }
+
+    #navegaum a:active{
+        background-color:#062440;
+        color:white;
+    }
+    .bgverde{
+        color:#18702c;
+    }
+
+    .bgazulfra{
+        color:#9ccfff;
+    }
+    
+    .bgazul{
+        color:#034c91;
+    }
+
+    .bgazulfor{
+        color:#062440;
+    }
+    .bgverme{
+        color:#a60000;
+    }
+
+    .bgamar{
+        color:#fff373;
+    }
+
+    .bgroxo{
+        color:#c273ff;
+    }
+
+    .txtmtopqno{
+        font-size: 08px;
+    }
+
+    .txtpqno{
+        font-size:12px;
+        
+    }
+
+    .txt{
+        font-size:16px;
+    }
+
+    .txtmed{
+        font-size: 26px;
+    }
+    .txtgde{
+        font-size:48px;
+    }
+    .txtmtogde{
+        font-size:60px;
+    }
+
+    .txtultra{
+        font-size:80px;
+    }
+
+    .txtbco{
+        color:white;
+    }
+
+    .txtverde{
+        color:#18702c;
+    }
+
+    .txtazulfra{
+        color:#9ccfff;
+    }
+    
+    .txtazul{
+        color:#034c91;
+    }
+
+    .txtazulfor{
+        color:#062440;
+    }
+    .txtverme{
+        color:#a60000;
+    }
+
+    .txtamar{
+        color:#fff373;
+    }
+
+    .txtroxo{
+        color:#c273ff;
+    }
+    .txtleft{
+        text-align: left;
+    }
+
+    
+
+    .cont{
+        width: 100%;
+        padding:16px;
+        margin:2px;
+        text-align: center;
+        float:left;
+        border:1px solid black;
+        position:relative;
+    }
+
+    .cont2{
+        width: 50%;
+        padding:16px;
+        margin:2px;
+        text-align: center;
+        float:left;
+        border:1px solid black;
+        position:relative;
+    }
+    .cont4{
+        width: 25%;
+        padding:2px;
+        margin:2px;
+        text-align: left;
+        float:left;
+        border:1px solid black;
+        position:relative;
+    }
+
+    
+    .ficha{
+        position:absolute;
+        width: 100%; 
+        top:330px;
+        border: 1px solid red; 
+        background-image: url('https://i.pinimg.com/originals/a8/01/15/a80115478ad1f024f11e348618d1f489.jpg');
+        background-repeat: no-repeat; 
+        background-position: top left; 
+        background-size: 300px;"
+    }
+    
+    .inpatri{
+        width:50px;
+        height:50px;
+        float:left;
+        margin-top:16px;
+        border: 1px solid black; 
 
 
+    }
 
-
-	a, a:hover, a:active, a:visited{
-		text-decoration: none;
-		padding: 2px;
-	}
-
-	#navegaum a{
-		
-		background-color:#9ccfff;
-		color:white;
-		transition-duration: 0.3s;
-	}
-	#navegaum a:hover{
-		background-color:#034c91;
-		color:white;
-
-	}
-
-	#navegaum a:active{
-		background-color:#062440;
-		color:white;
-	}
-
-	.txtmtopqno{
-		font-size: 08px;
-	}
-
-	.txtpqno{
-		font-size:12px;
-		
-	}
-
-	.txt{
-		font-size:16px;
-	}
-
-	.txtmed{
-		font-size: 26px;
-	}
-	.txtgde{
-		font-size:48px;
-	}
-	.txtmtogde{
-		font-size:60px;
-	}
-
-	.txtultra{
-		font-size:80px;
-	}
-
-	.txtbco{
-		color:white;
-	}
-
-	.txtverde{
-		color:#18702c;
-	}
-
-	.txtazulfra{
-		color:#9ccfff;
-	}
-	
-	.txtazul{
-		color:#034c91;
-	}
-
-	.txtazulfor{
-		color:#062440;
-	}
-	.txtverme{
-		color:#a60000;
-	}
-
-	.txtamar{
-		color:#fff373;
-	}
-
-	.txtroxo{
-		color:#c273ff;
-	}
-
-	.bgverde{
-		color:#18702c;
-	}
-
-	.bgazulfra{
-		color:#9ccfff;
-	}
-	
-	.bgazul{
-		color:#034c91;
-	}
-
-	.bgazulfor{
-		color:#062440;
-	}
-	.bgverme{
-		color:#a60000;
-	}
-
-	.bgamar{
-		color:#fff373;
-	}
-
-	.bgroxo{
-		color:#c273ff;
-	}
-
-	.cont{
-		width: 100%;
-		padding:16px;
-		margin:2px;
-		text-align: center;
-		float:left;
-		/*border:1px solid black;*/
-	}
-
-	.cont2{
-		width: 50%;
-		padding:16px;
-		margin:2px;
-		text-align: center;
-		float:left;
-		/*border:1px solid black;*/
-
-	}
-
-	.cont3{
-		width: 32.88888888%;
-		padding:16px;
-		margin:2px;
-		text-align: center;
-		float:left;
-		/*border:1px solid black;*/
-	}
-
-	.contmnmo{
-		width: 10%;
-		padding:16px;
-		margin:2px;
-		text-align: center;
-		float:left;
-		border:1px solid black;
-	}
-	.contmnmo2{
-		width: 20%;
-		padding:16px;
-		margin:2px;
-		text-align: center;
-		float:left;
-		border:1px solid black;
-	}
-	.imagemclasse{
-		width:48%;
-		height:48%;
-		margin:1%;
-	}
-	
-	.inpatri{
-		width:50px;
-		height:50px;
-		float:left;
-
-	}
-	@media all and (max-width: 350px){
-		body{
-			width: 98%;
-			margin:1px;
-			padding:1px;
-		}
-
-		#navegaum.navum{
-			
-			color:white;
-			font-size:12px;
-		}
-	}@media all and (max-width: 370px){
-		body{
-			width: 98%;
-			margin:1px;
-			padding:1px;
-		}
-
-		#navegaum.navum{
-			
-			color:white;
-			font-size:20px;
-		}
-	}
-
-	@media all and (max-width: 840px){
-		body{
-			width: 98%;
-			margin:1px;
-			padding:1px;
-		}
-
-		#navegaum.navum{
-			
-			color:white;
-			font-size:26px;
-		}
-	}
+  
