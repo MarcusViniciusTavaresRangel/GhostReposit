@@ -13,43 +13,40 @@
 	</style>
 </head>
 	<body>
-		<div class="cont txtgde">
-			<h1>Zemya</h1>
-				<div id="navegaum" class="navum" >
-					<a href="#" >Mundo</a>
-					<a href="#" >Personagens</a>
-					<a href="#" >Hall da fama</a>
-				</div>
-		</div>
-			<div id="fichaladrao" class="ficha"  >
-				<div>
-					<p class="txtgde" style="display: inline">Marth</p>
-					<p style="display: inline"> Ladrão 7</p>
-				</div>	
+		<div  style="" class="ficha">
 				
-				<div class="txtgde" >
-						<p class="txtleft">For</p>  
-						<p class="txtleft">Des</p>  
-						<p class="txtleft">Con</p>  
-						<p class="txtleft">Int</p>  
-						<p class="txtleft">Sab</p>  
-						<p class="txtleft">Car</p>  
+				<p class="cabeça"> Marth <span><em><b>Ladrão 7</b></em></span></p>
+				
+				<img src="ladrao.jpg">
+				
+				<div id="oioi" class="nomeatr">
+
+					<p for="">For</p>
+					<p for="">Des</p>
+					<p for="">Con</p>
+					<p for="">Int</p>
+					<p for="">Sab</p>
+					<p for="">Car</p>
+
+				</div>	
+
+				<div id="ioio" style="" class="inpatrib">
+
+
+					<input id=""type="" name="" class="atrb" maxlength="2" />
+					<input id=""type="" name="" class="atrb" maxlength="2"/>
+					<input id=""type="" name="" class="atrb" maxlength="2"/>
+					<input id=""type="" name="" class="atrb" maxlength="2"/>
+					<input id=""type="" name="" class="atrb" maxlength="2"/>
+					<input id=""type="" name="" class="atrb" maxlength="2"/>
+						
 
 				</div>
 
-				<div class=""  >
-						 <div class="" ><input id="FOR" class="inpatri" maxlength="2"><br></div>
-						 <div class="" ><input id="DES" class="inpatri" maxlength="2"><br></div>
-						 <div class="" ><input id="INT" class="inpatri" maxlength="2"><br></div>
-						 <div class="" ><input id="SAB" class="inpatri" maxlength="2"><br></div>
-						 <div class="" ><input id="CAR" class="inpatri" maxlength="2"><br></div>
-						 <div class="" ><input id="CON" class="inpatri" maxlength="2"><br></div>
-				</div>		 
+		</div>	
 
-
-
-			</div>	
-
+				
+			
 
 	</body>
 
@@ -57,7 +54,16 @@
 
 
 <script type="text/javascript">
+ function mostra(){
+ 	let x = document.getElementById('oioi');
+ 	let y = document.getElementById('ioio');
 
+ 	if (x.style.display === "none"){
+ 		x.style.display = "inline-block";
+ 	}else {
+    x.style.display = "none";
+  }
+ }
 </script>
 
 </html>	
