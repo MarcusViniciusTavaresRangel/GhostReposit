@@ -22,7 +22,7 @@
 	margin: 1px;
 }
 .inpatrib{
-		width: 50%; 
+		width: 53%; 
 		border:1px solid black; 
 		position:absolute; 
 		right:19px; 
@@ -35,8 +35,8 @@
     }
 
     .atrb{
-    	width: 20px;
-    	height: 20px;
+    	width: 15px;
+    	height: 15px;
     	text-align: center;
     	margin:5px;
     	font-size:8px;
@@ -46,13 +46,13 @@
 
     }
 .nomeatr{
-		width: 50%; 
+		width: 53%; 
 		border:1px solid black;		
 		position:absolute; 
 		right:20px; 
 		top:10px;		
 		font-size: 14px;
-		word-spacing: 11px;
+		word-spacing: 5px;
 		text-align: center;
 
 		
@@ -156,7 +156,7 @@ img{
     	height: 50px;
     	text-align: center;
     	margin:5px;
-    	font-size:8px;
+    	font-size:22px;
     	text-align: center;
 
     	
