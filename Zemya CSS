@@ -10,10 +10,17 @@
     a, a:hover, a:active, a:visited{
         text-decoration: none;
         padding: 2px;
+        font-size:28px;
+        color:white;
+        background-color: blue;
+
     }
     ul{
     list-style-type: none;
 }
+
+
+
 .ficha{
     
     border:1px solid black; 
@@ -21,42 +28,69 @@
     position:relative;  
     margin: 1px;
 }
+
+.topo{
+	 width:100%;
+	 border: 1px solid black;
+	 text-align: center; 
+	 padding:10px;
+	}
+
+.topo h1{
+	font-size: 64px;
+}
+
+.topo p {
+		padding: 2px;
+        font-size:28px;
+        color:white;
+        background-color: blue;
+        width: 29px;
+        display: inline;
+}
 .inpatrib{
-        width: 53%; 
+        width: 25%; 
         border:1px solid black; 
         position:absolute; 
-        right:19px; 
-        top:30px; 
-        text-align: center;
+        right:419px; 
+        top:50px; 
+        text-align:left;
         
-        
-        
+             
         
     }
+
+.inpatrib1{
+        width: 25%; 
+        border:1px solid black; 
+        position:absolute; 
+        right:419px; 
+        top:120px; 
+        text-align:left;     
+             
+        
+    }     
 
     .atrb{
-        width: 15px;
-        height: 15px;
+        width: 50px;
+        height: 50px;
         text-align: center;
         margin:5px;
-        font-size:8px;
-        text-align: center;
-
+        font-size:22px;
         
-
     }
+
+
 .nomeatr{
-        width: 53%; 
+        width: 25%; 
         border:1px solid black;     
         position:absolute; 
-        right:20px; 
+        right:420px; 
         top:10px;       
-        font-size: 14px;
-        word-spacing: 5px;
-        text-align: center;
+        font-size: 32px;
+        word-spacing: 11px;
+        text-align: left;
 
-        
-        
 }
 .nomeatr p {
     display:inline;
@@ -64,9 +98,11 @@
 }
 
 .cabeça{
-    font-size:20px;
+    font-size:40px;
     margin: 0;
+    word-spacing: 14px;
 }
+
 img{
     width:50%;
     height:auto;
@@ -80,9 +116,108 @@ img{
     a, a:hover, a:active, a:visited{
         text-decoration: none;
         padding: 2px;
+        font-size:28px;
+        color:white;
+        background-color: blue;
+
     }
     ul{
     list-style-type: none;
+}
+
+
+
+.ficha{
+    
+    border:1px solid black; 
+    padding: 1px; 
+    position:relative;  
+    margin: 1px;
+}
+
+.topo{
+	 width:100%;
+	 border: 1px solid black;
+	 text-align: center; 
+	 padding:10px;
+	}
+
+.topo h1{
+	font-size: 64px;
+}
+
+.topo p {
+		padding: 2px;
+        font-size:28px;
+        color:white;
+        background-color: blue;
+        width: 29px;
+        display: inline;
+}
+.inpatrib{
+        width: 25%; 
+        border:1px solid black; 
+        position:absolute; 
+        right:419px; 
+        top:50px; 
+        text-align:left;
+        
+             
+        
+    }
+
+.inpatrib1{
+        width: 25%; 
+        border:1px solid black; 
+        position:absolute; 
+        right:419px; 
+        top:120px; 
+        text-align:left;     
+             
+        
+    }     
+
+    .atrb{
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        margin:5px;
+        font-size:22px;
+        
+
+        
+
+    }
+
+
+   
+.nomeatr{
+        width: 25%; 
+        border:1px solid black;     
+        position:absolute; 
+        right:420px; 
+        top:10px;       
+        font-size: 32px;
+        word-spacing: 11px;
+        text-align: left;
+
+        
+        
+}
+.nomeatr p {
+    display:inline;
+
+}
+
+.cabeça{
+    font-size:40px;
+    margin: 0;
+    word-spacing: 14px;
+}
+
+img{
+    width:50%;
+    height:auto;
 }
 
 }
@@ -93,6 +228,10 @@ img{
     a, a:hover, a:active, a:visited{
         text-decoration: none;
         padding: 2px;
+        font-size:28px;
+        color:white;
+        background-color: blue;
+
     }
     ul{
     list-style-type: none;
@@ -100,17 +239,207 @@ img{
 
 
 
+.ficha{
+    
+    border:1px solid black; 
+    padding: 1px; 
+    position:relative;  
+    margin: 1px;
+}
+
+.topo{
+	 width:100%;
+	 border: 1px solid black;
+	 text-align: center; 
+	 padding:10px;
+	}
+
+.topo h1{
+	font-size: 64px;
+}
+
+.topo p {
+		padding: 2px;
+        font-size:28px;
+        color:white;
+        background-color: blue;
+        width: 29px;
+        display: inline;
+}
+.inpatrib{
+        width: 25%; 
+        border:1px solid black; 
+        position:absolute; 
+        right:419px; 
+        top:50px; 
+        text-align:left;
+        
+             
+        
+    }
+
+.inpatrib1{
+        width: 25%; 
+        border:1px solid black; 
+        position:absolute; 
+        right:419px; 
+        top:120px; 
+        text-align:left;     
+             
+        
+    }     
+
+    .atrb{
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        margin:5px;
+        font-size:22px;
+        
+
+        
+
+    }
+
+
+   
+.nomeatr{
+        width: 25%; 
+        border:1px solid black;     
+        position:absolute; 
+        right:420px; 
+        top:10px;       
+        font-size: 32px;
+        word-spacing: 11px;
+        text-align: left;
+
+        
+        
+}
+.nomeatr p {
+    display:inline;
+
+}
+
+.cabeça{
+    font-size:40px;
+    margin: 0;
+    word-spacing: 14px;
+}
+
+img{
+    width:50%;
+    height:auto;
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media all and (min-width: 992px) {
 
-    a, a:hover, a:active, a:visited{
+   a, a:hover, a:active, a:visited{
         text-decoration: none;
         padding: 2px;
+        font-size:28px;
+        color:white;
+        background-color: blue;
+
     }
     ul{
     list-style-type: none;
+}
+
+
+
+.ficha{
+    
+    border:1px solid black; 
+    padding: 1px; 
+    position:relative;  
+    margin: 1px;
+}
+
+.topo{
+	 width:100%;
+	 border: 1px solid black;
+	 text-align: center; 
+	 padding:10px;
+	}
+
+.topo h1{
+	font-size: 64px;
+}
+
+.topo p {
+		padding: 2px;
+        font-size:28px;
+        color:white;
+        background-color: blue;
+        width: 29px;
+        display: inline;
+}
+.inpatrib{
+        width: 25%; 
+        border:1px solid black; 
+        position:absolute; 
+        right:419px; 
+        top:50px; 
+        text-align:left;
+        
+             
+        
+    }
+
+.inpatrib1{
+        width: 25%; 
+        border:1px solid black; 
+        position:absolute; 
+        right:419px; 
+        top:120px; 
+        text-align:left;     
+             
+        
+    }     
+
+    .atrb{
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        margin:5px;
+        font-size:22px;
+        
+
+        
+
+    }
+
+
+   
+.nomeatr{
+        width: 25%; 
+        border:1px solid black;     
+        position:absolute; 
+        right:420px; 
+        top:10px;       
+        font-size: 32px;
+        word-spacing: 11px;
+        text-align: left;
+
+        
+        
+}
+.nomeatr p {
+    display:inline;
+
+}
+
+.cabeça{
+    font-size:40px;
+    margin: 0;
+    word-spacing: 14px;
+}
+
+img{
+    width:50%;
+    height:auto;
 }
 
 
@@ -142,12 +471,32 @@ img{
     position:relative;  
     margin: 1px;
 }
+
+.topo{
+	 width:100%;
+	 border: 1px solid black;
+	 text-align: center; 
+	 padding:10px;
+	}
+
+.topo h1{
+	font-size: 64px;
+}
+
+.topo p {
+		padding: 2px;
+        font-size:28px;
+        color:white;
+        background-color: blue;
+        width: 29px;
+        display: inline;
+}
 .inpatrib{
         width: 25%; 
         border:1px solid black; 
         position:absolute; 
         right:419px; 
-        top:310px; 
+        top:50px; 
         text-align:left;
         
              
@@ -159,7 +508,7 @@ img{
         border:1px solid black; 
         position:absolute; 
         right:419px; 
-        top:400px; 
+        top:120px; 
         text-align:left;     
              
         
@@ -184,7 +533,7 @@ img{
         border:1px solid black;     
         position:absolute; 
         right:420px; 
-        top:240px;       
+        top:10px;       
         font-size: 32px;
         word-spacing: 11px;
         text-align: left;
@@ -200,6 +549,7 @@ img{
 .cabeça{
     font-size:40px;
     margin: 0;
+    word-spacing: 14px;
 }
 
 img{
