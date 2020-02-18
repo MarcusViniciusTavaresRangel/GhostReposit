@@ -124,6 +124,10 @@ img{
     a, a:hover, a:active, a:visited{
         text-decoration: none;
         padding: 2px;
+        font-size:28px;
+        color:white;
+        background-color: blue;
+
     }
     ul{
     list-style-type: none;
@@ -143,7 +147,7 @@ img{
         border:1px solid black; 
         position:absolute; 
         right:419px; 
-        top:60px; 
+        top:310px; 
         text-align:left;
         
              
@@ -155,7 +159,7 @@ img{
         border:1px solid black; 
         position:absolute; 
         right:419px; 
-        top:130px; 
+        top:400px; 
         text-align:left;     
              
         
@@ -180,7 +184,7 @@ img{
         border:1px solid black;     
         position:absolute; 
         right:420px; 
-        top:10px;       
+        top:240px;       
         font-size: 32px;
         word-spacing: 11px;
         text-align: left;
