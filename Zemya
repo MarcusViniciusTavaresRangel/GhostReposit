@@ -13,16 +13,14 @@
 	</style>
 </head>
 	<body>
+		<div style="" class="topo">
+					<h1 style=""> Zemya</h1>
+					<p>Personagens</p>
+					<p >Mundo</p>						
+				</div>
+
 		<div  style="" class="ficha">
-				<div style="width:100%; border: 1px solid black; text-align: center; padding:10px;">
-					<h1 style="font-size: 64px;"> Zemya</h1>
-					<a href="#" onclick="mostra();">Personagens</a>
-					<a href="#">Mundo</a>						
-				</div>	
-					
-				
-				
-					<p class="cabeça"> Marth <span><em><b>Ladrão 7</b></em></span></p>
+				<p class="cabeça"> Marth  <span style="font-size:28px;"><em><b>  Ladrão 7</b></em></span></p>
 				
 				<img src="ladrao.jpg">
 				
@@ -64,7 +62,7 @@
 
 				</div>
 
-				<div style="width:25%; height:350px;border:1px solid black; margin: 2px; position: absolute; right:15px; top:220px; text-align: left; overflow-y:scroll;">
+				<div style="width:25%; height:350px;border:1px solid black; margin: 2px; position: absolute; right:15px; top:0; text-align: left; overflow-y:scroll;">
 					<h4 style="text-align: center;"> História</h4>
 					<p >Um simples camponês, trabalhador da terra desde os 10 anos de idade. Porém sonhava alto, sonhava com riquezas e vida de luxo e aventuras que ouvia  dos mercadores que vinham coletar os grãos produzidos pela sua família.<br/>
 					Não questionava muito o funcionamento das coisas, e definitivamente não havia traquejo de lavrador no menino, que sempre escapava para a cidade, pra logo aos 12 ficar de vez.Fez rápida amizade com pivetes locais que o ensinaram a sobreviver, pois a única coisa que sabia era plantar, mas logo aprendeu a esbarrar nas pessoas, e com um sorriso sincero de desculpas, se afastar com uma ou duas moedas de prata, garantindo o almoço dele e de seus amigos.<br/>
