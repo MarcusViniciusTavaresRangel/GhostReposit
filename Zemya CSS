@@ -1,4 +1,4 @@
- *{
+*{
         box-sizing:border-box;
         }
 
@@ -11,78 +11,78 @@
         text-decoration: none;
         padding: 2px;
     }
-	ul{
-	list-style-type: none;
+    ul{
+    list-style-type: none;
 }
 .ficha{
-	
-	border:1px solid black; 
-	padding: 1px; 
-	position:relative;  
-	margin: 1px;
+    
+    border:1px solid black; 
+    padding: 1px; 
+    position:relative;  
+    margin: 1px;
 }
 .inpatrib{
-		width: 53%; 
-		border:1px solid black; 
-		position:absolute; 
-		right:19px; 
-		top:30px; 
-		text-align: center;
-		
-		
-		
-		
+        width: 53%; 
+        border:1px solid black; 
+        position:absolute; 
+        right:19px; 
+        top:30px; 
+        text-align: center;
+        
+        
+        
+        
     }
 
     .atrb{
-    	width: 15px;
-    	height: 15px;
-    	text-align: center;
-    	margin:5px;
-    	font-size:8px;
-    	text-align: center;
+        width: 15px;
+        height: 15px;
+        text-align: center;
+        margin:5px;
+        font-size:8px;
+        text-align: center;
 
-    	
+        
 
     }
 .nomeatr{
-		width: 53%; 
-		border:1px solid black;		
-		position:absolute; 
-		right:20px; 
-		top:10px;		
-		font-size: 14px;
-		word-spacing: 5px;
-		text-align: center;
+        width: 53%; 
+        border:1px solid black;     
+        position:absolute; 
+        right:20px; 
+        top:10px;       
+        font-size: 14px;
+        word-spacing: 5px;
+        text-align: center;
 
-		
-		
+        
+        
 }
 .nomeatr p {
-	display:inline;
+    display:inline;
 
 }
 
 .cabeça{
-	font-size:20px;
-	margin: 0;
+    font-size:20px;
+    margin: 0;
 }
 img{
-	width:50%;
-	height:auto;
+    width:50%;
+    height:auto;
 }
 }
    
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media all and (min-width: 600px) {
-	
+    
     a, a:hover, a:active, a:visited{
         text-decoration: none;
         padding: 2px;
     }
-	ul{
-	list-style-type: none;
+    ul{
+    list-style-type: none;
 }
 
 }
@@ -94,8 +94,8 @@ img{
         text-decoration: none;
         padding: 2px;
     }
-	ul{
-	list-style-type: none;
+    ul{
+    list-style-type: none;
 }
 
 
@@ -109,8 +109,8 @@ img{
         text-decoration: none;
         padding: 2px;
     }
-	ul{
-	list-style-type: none;
+    ul{
+    list-style-type: none;
 }
 
 
@@ -125,69 +125,82 @@ img{
         text-decoration: none;
         padding: 2px;
     }
-	ul{
-	list-style-type: none;
+    ul{
+    list-style-type: none;
 }
 
 
 
 .ficha{
-	
-	border:1px solid black; 
-	padding: 1px; 
-	position:relative;  
-	margin: 1px;
+    
+    border:1px solid black; 
+    padding: 1px; 
+    position:relative;  
+    margin: 1px;
 }
 .inpatrib{
-		width: 50%; 
-		border:1px solid black; 
-		position:absolute; 
-		right:19px; 
-		top:60px; 
-		text-align: center;
-		
-		
-		
-		
+        width: 25%; 
+        border:1px solid black; 
+        position:absolute; 
+        right:419px; 
+        top:60px; 
+        text-align:left;
+        
+             
+        
     }
+
+.inpatrib1{
+        width: 25%; 
+        border:1px solid black; 
+        position:absolute; 
+        right:419px; 
+        top:130px; 
+        text-align:left;     
+             
+        
+    }     
 
     .atrb{
-    	width: 50px;
-    	height: 50px;
-    	text-align: center;
-    	margin:5px;
-    	font-size:22px;
-    	text-align: center;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        margin:5px;
+        font-size:22px;
+        
 
-    	
+        
 
     }
-.nomeatr{
-		width: 50%; 
-		border:1px solid black;		
-		position:absolute; 
-		right:20px; 
-		top:10px;		
-		font-size: 32px;
-		word-spacing: 11px;
-		text-align: center;
 
-		
-		
+
+   
+.nomeatr{
+        width: 25%; 
+        border:1px solid black;     
+        position:absolute; 
+        right:420px; 
+        top:10px;       
+        font-size: 32px;
+        word-spacing: 11px;
+        text-align: left;
+
+        
+        
 }
 .nomeatr p {
-	display:inline;
+    display:inline;
 
 }
 
 .cabeça{
-	font-size:40px;
-	margin: 0;
+    font-size:40px;
+    margin: 0;
 }
 
 img{
-	width:50%;
-	height:auto;
+    width:50%;
+    height:auto;
 }
 
 }
