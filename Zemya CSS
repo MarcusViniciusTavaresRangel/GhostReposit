@@ -83,10 +83,10 @@
 
 .inpatrib{
         width: 39%; 
-        border:1px solid black; 
+        border-bottom:1px solid black; 
         position:absolute; 
         right:65px; 
-        top:33px; 
+        top:23px; 
         text-align:left;
         
              
@@ -95,22 +95,22 @@
 
 .inpatrib1{
         width: 39%; 
-        border:1px solid black; 
+        border-bottom:1px solid black; 
         position:absolute; 
         right:65px; 
-        top:55px; 
+        top:45px; 
         text-align:left;     
              
         
     }     
 
     .atrb{
-        width: 10px;
-        height: 10px;
+        width: 13px;
+        height: 13px;
         text-align: center;
-        margin-right:5px;
-        margin-top:0;
-        font-size:5px;
+        margin-right:1px;
+        
+        font-size:8px;
         
     }
 
@@ -140,6 +140,34 @@
 .historia p{
  font-size:5px;
 }
+
+.equipamentos{	
+	width:50%;
+	height:30%;
+	position: absolute; 
+	top:85px; 
+	right:15px;	 
+	border:1px solid black; 
+	overflow: auto;
+	background-color: white;
+}
+
+.equipamentos h4{
+	text-align: center; 
+	background-color: white; 
+	padding: 5px; 
+	position: sticky; 
+	top:0;
+	font-size: 10px;
+}
+.equipamentos textarea {
+	font-size: 8px;
+	width:100%;
+	height:20px;
+	position: absolute;
+	top: 28px;
+}
+
 img{
     width:40%;
     height:auto;
@@ -525,12 +553,12 @@ img{
     background-color: #3a71b5;
 }
 .nomeatr{
-        width: 25%; 
+        width: 32%; 
         border:1px solid black;     
         position:absolute; 
         right:300px; 
         top:15px;       
-        font-size: 19px;
+        font-size: 24px;
         word-spacing: 2px;
         text-align: left;
         background-color: white;
@@ -545,11 +573,11 @@ img{
 
 
 .inpatrib{
-        width: 25%; 
+        width: 32%; 
         border:1px solid black; 
         position:absolute; 
         right:300px; 
-        top:50px; 
+        top:70px; 
         text-align:left;
         
              
@@ -557,19 +585,19 @@ img{
     }
 
 .inpatrib1{
-        width: 25%; 
+        width: 32%; 
         border:1px solid black; 
         position:absolute; 
         right:300px; 
-        top:100px; 
+        top:130px; 
         text-align:left;     
              
         
     }     
 
     .atrb{
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         text-align: center;
         margin:3px;
         font-size:22px;
@@ -591,7 +619,7 @@ img{
 }
 .historia{
     width:25%; 
-    height:350px;
+    height:210px;
     border:1px solid black; 
     margin: 2px; 
     position: absolute; 
@@ -609,6 +637,35 @@ img{
     top:0;
     padding:3px;
     width:100%;
+}
+
+.equipamentos{	
+	width:550px;
+	height:200px;
+	position: absolute; 
+	top:230px; 
+	right:15px;	 
+	border:1px solid black; 
+	overflow: auto;
+	background-color: white;
+}
+
+.equipamentos h4{
+	text-align: center; 
+	background-color: white; 
+	padding: 5px; 
+	position: sticky; 
+	top:0;
+}
+
+.equipamentos textarea{
+	font-size: 16px;
+	width:100%;
+	
+	position: absolute;
+	top: 58px;
+}
+
 }
 img{
     width:40%;
