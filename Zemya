@@ -5,7 +5,12 @@
 	<meta spellcheck="true">
 	<meta  name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="codecss.css" media="All and (color), projection and (color)">
+	<link rel="stylesheet" href="codecssxsmall.css" media="All and (color), projection and (color)">
+	<link rel="stylesheet" href="codecss400.css" media="All and (color), projection and (color)">
+	<link rel="stylesheet" href="codecsssmall.css" media="All and (color), projection and (color)">
+	<link rel="stylesheet" href="codecssmedium.css" media="All and (color), projection and (color)">
+	<link rel="stylesheet" href="codecsslarge.css" media="All and (color), projection and (color)">
+	<link rel="stylesheet" href="codecssxlarge.css" media="All and (color), projection and (color)">
 	<script src="codejs.js"></script>
 	<script src="https://www.w3schools.com/lib/w3.js"></script>
 	<style type="text/css">
@@ -22,7 +27,7 @@
 		<div  id="fichaPJ" style="display:none;"  class="ficha" >
 				<p class="cabeça" style="color:white; text-shadow: 3px 2px  #30578a;"> Marth  <span class="classespan"style=""><em><b>  Ladrão 7</b></em></span></p>
 				
-				<img src="ladrao.jpg">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRIj10f4rhQp5x_IyhD8EdoDQQRKWQBuQWM6vWmYGNJM1bCBk9C">
 				
 				<div id="oioi" class="nomeatr">
 
@@ -38,12 +43,12 @@
 				<div id="ioio" style="" class="inpatrib">
 
 
-					<input id="FOR"type="" name="" class="atrb" maxlength="2" pattern="[0-9]" onblur="mod();"/>
-					<input id="DES"type="" name="" class="atrb" maxlength="2" pattern="[0-9]" onblur="moddes();"/>
-					<input id="CON"type="" name="" class="atrb" maxlength="2" pattern="[0-9]" onblur="modcon();"/>
-					<input id="INT"type="" name="" class="atrb" maxlength="2" pattern="[0-9]" onblur="modint();"/>
-					<input id="SAB"type="" name="" class="atrb" maxlength="2" pattern="[0-9]" onblur="modsab();"/>
-					<input id="CAR"type="" name="" class="atrb" maxlength="2" pattern="[0-9]" onblur="modcar();"/>
+					<input id="FOR"type="" name="" class="atrb" maxlength="2" onblur="mod();"/>
+					<input id="DES"type="" name="" class="atrb" maxlength="2" onblur="moddes();"/>
+					<input id="CON"type="" name="" class="atrb" maxlength="2" onblur="modcon();"/>
+					<input id="INT"type="" name="" class="atrb" maxlength="2" onblur="modint();"/>
+					<input id="SAB"type="" name="" class="atrb" maxlength="2" onblur="modsab();"/>
+					<input id="CAR"type="" name="" class="atrb" maxlength="2" onblur="modcar();"/>
 						
 
 				</div>
@@ -64,25 +69,13 @@
 
 				<div class="historia">
 					<h4 > História</h4>
-					<p >Um simples camponês, trabalhador da terra desde os 10 anos de idade. Porém sonhava alto, sonhava com riquezas e vida de luxo e aventuras que ouvia  dos mercadores que vinham coletar os grãos produzidos pela sua família.<br/>
-					Não questionava muito o funcionamento das coisas, e definitivamente não havia traquejo de lavrador no menino, que sempre escapava para a cidade, pra logo aos 12 ficar de vez.Fez rápida amizade com pivetes locais que o ensinaram a sobreviver, pois a única coisa que sabia era plantar, mas logo aprendeu a esbarrar nas pessoas, e com um sorriso sincero de desculpas, se afastar com uma ou duas moedas de prata, garantindo o almoço dele e de seus amigos.<br/>
-					A ambição crescia nele, com o tempo não queria saber de pequenos golpes, começou a assaltar caravanas, vendia no mercado negro. Com o dinheiro que fazia, investia em sua aparência para frequentar os salões nobres, e logo preparava mapas das entradas e saídas das mansões e palacetes para vender a algum aventureiro de cobiça igualmente forte a dele mesmo, e isso o fez feliz por um tempo, saqueava caravanas, comandava invasões furtivas à casa de comerciantes, seduzia damas de aparência discutível, mas de generosidade imensa ao lhe ceder suas joias.Esquecia-se da família até que em uma emboscada que comandava, foi surpreendido por algum mercenário contratado de última hora, pois ele não estava na lista de pessoas que viajavam na caravana. O Mercenário usava espada e Marth uma espada curta e uma adaga, os dois brigavam, o grupo de Marth saqueava, Marth comandava a retirada até que um dos comparsas disse: 
-					- Venha Marth, não podemos levar mais nada, eles têm reforços!
-					O Mercenário parou de golpeá-lo.
-					- Marth? Filho de Atreath? 
-					O nome de seu pai o amedrontou e ele viu no rosto do mercenário, algo familiar, olhou para o chefe da caravana e lá estava seu pai, caído.
-					- Pai?
-					Atreath, Marth e o mercenário se entreolharam e Atreath disse:
-					- Meu filho! Seu irmão...
-					Nisso um outro bandido acertou em cheio a garganta  de Atreath. O mercenário, possuído pela raiva investiu tudo que tinha contra Marth, mas um do bando o agarrou e o colocou em um cavalo, enquanto os reforços do Mercenário chegavam!
-					Antes de conseguirem fugir, Marth ouviu do mercenário:
-					- Vou caçá-lo! Juro que pagará pela morte de meu pai Atreath! O mercenário era seu irmão e Marth soube que não era um simples 					mercenário. Na verdade sua fama o cegou. Marth era procurado por toda a capital, aquela era a guarda real disfarçada e agora, Marth vive nas sombras, mudando de nome quando lhe convém e às vezes de aparência, com disfarces. Além de carregar a culpa de ser o responsável pela morte de seu pai, tenta descobrir quem era aquele guarda disfarçado, que era seu irmão. Sinceramente, Marth não sabe o que resultaria desse encontro, mas antes um irmão desconhecido morto do que ele. Decidido a um último golpe, e vender a estalagem logo após para sair de Cormyr e evitar ser preso ou encontrar o suposto irmão da Guarda Real, Marth acabou encontrando-se com um Druida e foi amaldiçoado por Lolth, a Deusa da Traição. Disposto a se livrar desta maldição aventurou-se com este Druida e descobriu que ele agora fazia parte de uma grande conspiração maligna de um ser que se auto-intitulava O Libertador. Encontrou um Paladino a serviço da Deusa Numancia, e os poderes do Paladino o impressionaram de tal forma que seu mundo definitivamente havia se transformado. Seguiu com o Druida e o Paladino e outros para a Árvore da Verdade, onde confrontou diversas situações fantásticas para um simples humano. Lá, livrou-se da maldição, que agora tomara forma do Anel de Lolth, o qual ele diz que NUNCA mais irá utilizar de seus poderes. Além disso o contato constante com o Paladino o fez tornar-se devoto de Numancia. Sua fé cresceu conforme passava mais tempo na companhia do Paladino, e decidiu que o Anel de Lolth só pode ficar com ele, ou nas mãos de Gakusha o sumo-sacerdote de Numancia. Aprendeu a Detectar Magia, depois que saiu da Árvore.</p>
+					<textarea rows="10" cols="57"></textarea>
 					
 					
 				</div>	
 				<div class="equipamentos"style="">
 					<h4 style="">Equipamentos</h4>
-					<textarea rows="10" cols="57"></textarea>
+					<textarea ></textarea>
 				</div>	
 				
 
@@ -233,4 +226,9 @@ else{
 
 </script>
 
-</html>	
+
+
+	
+</body>
+
+</html>
