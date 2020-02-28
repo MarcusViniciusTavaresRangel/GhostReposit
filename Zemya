@@ -5,12 +5,12 @@
 	<meta spellcheck="true">
 	<meta  name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="codecssxsmall.css" media="All and (color), projection and (color)">
-	<link rel="stylesheet" href="codecss400.css" media="All and (color), projection and (color)">
-	<link rel="stylesheet" href="codecsssmall.css" media="All and (color), projection and (color)">
-	<link rel="stylesheet" href="codecssmedium.css" media="All and (color), projection and (color)">
-	<link rel="stylesheet" href="codecsslarge.css" media="All and (color), projection and (color)">
-	<link rel="stylesheet" href="codecssxlarge.css" media="All and (color), projection and (color)">
+	<link rel="stylesheet" href="codexmall.css" media="All and (color), projection and (color)">
+	<link rel="stylesheet" href="codecss401.css" media="All and (color), projection and (color)">
+	<link rel="stylesheet" href="codesmall.css" media="All and (color), projection and (color)">
+	<link rel="stylesheet" href="codemedium.css" media="All and (color), projection and (color)">
+	<link rel="stylesheet" href="codelarge.css" media="All and (color), projection and (color)">
+	<link rel="stylesheet" href="codexlarge.css" media="All and (color), projection and (color)">
 	<script src="codejs.js"></script>
 	<script src="https://www.w3schools.com/lib/w3.js"></script>
 	<style type="text/css">
@@ -18,11 +18,24 @@
 	</style>
 </head>
 	<body>
-		<div style="" class="topo">
-					<h1 style=""> Zemya</h1>
-					<p onclick="mostra();">Personagens</p>
-					<p >Mundo</p>						
-				</div>
+		<div>
+			<div class="topo">
+				<h1> Zemya</h1>
+			</div>	
+						
+			<div class="escolheclasse">
+				<p>Personagens</p>
+			<div class="conteu">
+				<p>Clérigo</p>
+				<p>Homem de Armas</p>
+				<p onclick="mostra();">Ladrão</p>
+				<p>Mago</p>
+			</div>
+			</div>
+					
+		</div>
+
+
 
 		<div  id="fichaPJ" style="display:none;"  class="ficha" >
 				<p class="cabeça" style="color:white; text-shadow: 3px 2px  #30578a;"> Marth  <span class="classespan"style=""><em><b>  Ladrão 7</b></em></span></p>
@@ -31,24 +44,24 @@
 				
 				<div id="oioi" class="nomeatr">
 
-					<p for="">For</p>
-					<p for="">Des</p>
-					<p for="">Con</p>
-					<p for="">Int</p>
-					<p for="">Sab</p>
-					<p for="">Car</p>
+					<p>For</p>
+					<p>Des</p>
+					<p>Con</p>
+					<p>Int</p>
+					<p>Sab</p>
+					<p>Car</p>
 
 				</div>	
 
 				<div id="ioio" style="" class="inpatrib">
 
 
-					<input id="FOR"type="" name="" class="atrb" maxlength="2" onblur="mod();"/>
-					<input id="DES"type="" name="" class="atrb" maxlength="2" onblur="moddes();"/>
-					<input id="CON"type="" name="" class="atrb" maxlength="2" onblur="modcon();"/>
-					<input id="INT"type="" name="" class="atrb" maxlength="2" onblur="modint();"/>
-					<input id="SAB"type="" name="" class="atrb" maxlength="2" onblur="modsab();"/>
-					<input id="CAR"type="" name="" class="atrb" maxlength="2" onblur="modcar();"/>
+					<input id="FOR"type="number" name="" class="atrb" maxlength="2" onblur="mod();"/>
+					<input id="DES"type="number" name="" class="atrb" maxlength="2" onblur="moddes();"/>
+					<input id="CON"type="number" name="" class="atrb" maxlength="2" onblur="modcon();"/>
+					<input id="INT"type="number" name="" class="atrb" maxlength="2" onblur="modint();"/>
+					<input id="SAB"type="number" name="" class="atrb" maxlength="2" onblur="modsab();"/>
+					<input id="CAR"type="number" name="" class="atrb" maxlength="2" onblur="modcar();"/>
 						
 
 				</div>
@@ -57,19 +70,19 @@
 				<div id="iaia" style="" class="inpatrib1">
 
 
-					<input id="ModFOR"type="" name="" class="atrb" maxlength="2" />
-					<input id="ModDES"type="" name="" class="atrb" maxlength="2"/>
-					<input id="ModCON"type="" name="" class="atrb" maxlength="2"/>
-					<input id="ModINT"type="" name="" class="atrb" maxlength="2"/>
-					<input id="ModSAB"type="" name="" class="atrb" maxlength="2"/>
-					<input id="ModCAR"type="" name="" class="atrb" maxlength="2"/>
+					<input id="ModFOR"type="" name="" class="atrb" maxlength="2" disabled="disabled" />
+					<input id="ModDES"type="" name="" class="atrb" maxlength="2" disabled="disabled" />
+					<input id="ModCON"type="" name="" class="atrb" maxlength="2" disabled="disabled" />
+					<input id="ModINT"type="" name="" class="atrb" maxlength="2" disabled="disabled" />
+					<input id="ModSAB"type="" name="" class="atrb" maxlength="2" disabled="disabled" />
+					<input id="ModCAR"type="" name="" class="atrb" maxlength="2" disabled="disabled" />
 						
 
 				</div>
 
 				<div class="historia">
-					<h4 > História</h4>
-					<textarea rows="10" cols="57"></textarea>
+					<h4>História</h4>
+					<textarea></textarea>
 					
 					
 				</div>	
@@ -77,6 +90,8 @@
 					<h4 style="">Equipamentos</h4>
 					<textarea ></textarea>
 				</div>	
+				
+
 				
 
 		</div>	
@@ -228,7 +243,5 @@ else{
 
 
 
-	
-</body>
 
 </html>
