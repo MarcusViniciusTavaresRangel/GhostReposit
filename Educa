@@ -5,8 +5,8 @@
 	<meta spellcheck="true">
 	<meta  name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="CodeCssCode.css" media="All and (color), projection and (color)">
-	<script src="codejs.js"></script>
+	<link rel="stylesheet" href="educa.css" media="All and (color), projection and (color)">
+	<script src="educa.js"></script>
 	<script src="https://www.w3schools.com/lib/w3.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower&display=swap" rel="stylesheet">
 	<style type="text/css">
@@ -16,26 +16,135 @@
 	<body>
 		
 				<header class="topo topo topo401 topoGG">
-					<p style=""> \Ü/ Empresa Muito Boa</p><span style=""><em>Educacional</em></span>
+					<p style="">  Empresa Muito Boa \Ü/</p><span style=""><em>Educacional</em></span>
 
-					<section >
+					
 						<nav class="navega">
-							<p><a href="#">Sobre</a></p>
-							<p><a href="#">Cursos</a></p>
+							<p><a href="#sobre">Sobre</a></p>
+							<p><a href="#cursos">Cursos</a></p>
 							<p><a href="#">Contato</a></p>
 						</nav>	 
 	
-					</section>
+					
 
 				</header>
 			
-
-			
-
-
-				<aside>
+					<section id="sobre" style="position: absolute; width:99.88888888%; height:auto; top:275px; box-shadow: 1px 2px 3px #2c3d4aa1;">
+						<img id="imguno" src="educacoop.png" style="float:left; position:relative;opacity:0.4; width:50%; height:300px;" onmouseover="document.getElementById('imguno').style.opacity =1;" onmouseleave="document.getElementById('imguno').style.opacity =0.5; "/>
+						<h1>[EMPRESA COM NOME MUITO BOM]</h1> <p style="display:inline; font-size: 20px;">Atua na capacitação especializada de mão-de-obra pela modalidade de curso livre, amparada pela Lei 9.394/96, o Decreto nº. 5.154/04 e a Deliberação CEE 14/97 (Indicação CEE 14/97).<br> 
+						[EMPRESA COM NOME MUITO BOM] funciona sob o regime de cooperativismo, SEMPRE no objetivo de levar Educação Não-Formal de qualidade a um preço mais baixo do que o ofertado pela concorrência, se houver. O cooperativismo é o ideal pois os que se dispuserem a criar e administrar os cursos serão remunerados de acordo com sua produção, sem mais-valia, estimulando uma competição saudável e não-predatória, valorizando tanto os profissionais envolvidos quanto a quem busca a capacitação para o mercado de trabalho. </p>
+						
+					</section>
+						
 					
-				</aside>
+						<aside id="cursos" style="position: absolute; width:49.88888888%; height:auto;  box-shadow: 1px 2px 3px #2c3d4aa1; top:700px;">
+						<div>
+							<img id="imgdois" src="educacoop.png" style="float:left; position:relative;opacity:0.4;" onmouseover="document.getElementById('imgdois').style.opacity =1;" onmouseleave="document.getElementById('imgdois').style.opacity =0.5;"/>
+						<div>	
+						<h1>CURSO FRONT-END</h1>
+						<h2>Conteúdo<br></h2>
+						<h3>Módulo 1</h3>
+
+						<ul>
+							<li>Breve exposição histórica da HyperText Markup Language</li> 
+							<li>O que é preciso para escrever um código HTML?</li>
+							<ul>
+								<li>→	IDEs: Ambiente de Desenvolvimento Integrado (NetBeans, Eclipse) X editores de texto (Word, Bloco de Notas, 						Notepad ++). Sublime Text 3 / anWriter free HTML editor;</li>
+								<li>→ 	“Olá mundo!” - Seu primeiro HTML;</li>
+								<li>→	Tags HTML: Cabeçalhos, parágrafos, divisões semânticas, listas, tabelas e links e imagens.</li>	
+							</ul>		
+						</ul>
+
+
+
+
+						<h3>Módulo 2 - CURSO LIVRE DE INTODUÇÃO AO FRONT-END: CSS3.<br>
+							Conhecimento prévio sobre programação: Introdução ao HTML5;<br>
+							Duração: 04h em um ou dois dias.
+						</h3>
+
+						<h2>Conteúdo</h2>
+
+						<ul>
+							<li>CSS, o apelo visual – Um breve hitórico.</li>
+							<li>Estilo em linha;</li>
+							<li>Estilo na tag <head>;
+							<li>Cascade Style Sheet - Folha de Estilos;</li>
+
+- 						<ul>Seletores Comuns
+							<li>→  position</li>
+							<li>→  width</li>
+							<li>→  height</li>
+							<li>→  margin</li>
+							<li>→  padding</li>
+							<li>→  background-color</li>	
+							<li>→  color</li>
+							<li>→  font-family</li>
+							<li>→  font-size</li>
+							</ul>
+							Preço: R$60,00
+
+
+							<h3>MÓDULO 3 – Bônus</h3>
+
+							<h2>Construção de um site básico.</h2>
+					</aside>
+
+
+					<aside id="cursosoutros" style="position: absolute; width:49.88888888%; height:auto;  box-shadow: 1px 2px 3px #2c3d4aa1; top:700px; right:0;">
+						<div>
+							<img id="imgtres" src="educacoop.png" style="float:left; position:relative;opacity:0.4;" onmouseover="document.getElementById('imgtres').style.opacity =1;" onmouseleave="document.getElementById('imgtres').style.opacity =0.5;"/>
+						<div>	
+						<h1>CURSO FRONT-END</h1>
+						<h2>Conteúdo<br></h2>
+						<h3>Módulo 1</h3>
+
+						<ul>
+							<li>Breve exposição histórica da HyperText Markup Language</li> 
+							<li>O que é preciso para escrever um código HTML?</li>
+							<ul>
+								<li>→	IDEs: Ambiente de Desenvolvimento Integrado (NetBeans, Eclipse) X editores de texto (Word, Bloco de Notas, 						Notepad ++). Sublime Text 3 / anWriter free HTML editor;</li>
+								<li>→ 	“Olá mundo!” - Seu primeiro HTML;</li>
+								<li>→	Tags HTML: Cabeçalhos, parágrafos, divisões semânticas, listas, tabelas e links e imagens.</li>	
+							</ul>		
+						</ul>
+
+
+
+
+						<h3>Módulo 2 - CURSO LIVRE DE INTODUÇÃO AO FRONT-END: CSS3.<br>
+							Conhecimento prévio sobre programação: Introdução ao HTML5;<br>
+							Duração: 04h em um ou dois dias.
+						</h3>
+
+						<h2>Conteúdo</h2>
+
+						<ul>
+							<li>CSS, o apelo visual – Um breve hitórico.</li>
+							<li>Estilo em linha;</li>
+							<li>Estilo na tag <head>;
+							<li>Cascade Style Sheet - Folha de Estilos;</li>
+
+- 						<ul>Seletores Comuns
+							<li>→  position</li>
+							<li>→  width</li>
+							<li>→  height</li>
+							<li>→  margin</li>
+							<li>→  padding</li>
+							<li>→  background-color</li>	
+							<li>→  color</li>
+							<li>→  font-family</li>
+							<li>→  font-size</li>
+							</ul>
+							Preço: R$60,00
+
+
+							<h3>MÓDULO 3 – Bônus</h3>
+
+							<h2>Construção de um site básico.</h2>
+					</aside>
+
+				
 
 				<footer>
 					
