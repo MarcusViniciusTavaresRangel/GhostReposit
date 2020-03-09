@@ -1,0 +1,157 @@
+/* Extra small devices (phones, 600px and down) */
+@media all and (max-width: 600px) {
+
+	*{
+        box-sizing:border-box;
+        }
+.topo{
+	width:100%;
+	padding:2%; 
+	position: absolute; 
+	margin:auto; 
+	
+}
+
+.topo p {
+	font-size: 18px; 
+	display: inline;
+}
+.topo span{
+	font-size: 9.5px;
+}
+}
+
+/* 401*/
+@media all and (min-width: 401px) {
+
+	*{
+        box-sizing:border-box;
+        }
+
+
+
+.topo401{
+	width:100%; 
+	padding:2%; 
+	position: absolute; 
+	margin:auto; 
+	
+}
+
+.topo401 p {
+	font-size: 30px; 
+	display: inline;
+}
+.topo401 span{
+	font-size: 14px;
+	margin-left:15px;
+}
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media all and (min-width: 600px) {
+
+	*{
+        box-sizing:border-box;
+        }
+
+
+
+}
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media all and (min-width: 768px) {
+
+	*{
+        box-sizing:border-box;
+        }
+
+
+
+
+.topo{
+	width:100%;
+	padding:2%; 
+	position: absolute; 
+	margin:auto; 
+	background-image: url('educa.svg');
+	background-repeat: no-repeat;
+	
+	z-index:-1;
+}
+
+.topo p {
+	font-size: 60px; 
+	display: inline;
+	margin-right: 20px;
+}
+.topo span{
+	font-size: 10px;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media all and (min-width: 992px) {
+	*{
+        box-sizing:border-box;
+        }
+
+a,a:hover, a:visited, a:active{
+	text-decoration:none;
+}
+
+
+.topo{
+	width:100%;
+	padding:2%; 
+	position: absolute; 
+	margin:auto; 
+	
+
+}
+
+.topo p {
+	font-size: 90px; 
+	display: inline;
+	margin-right: 20px;
+
+}
+
+.topo span{
+	font-size: 40px;
+	
+}
+
+.navega{
+	position:relative;
+	bottom:0;
+	
+	text-align: center;
+	}
+
+	.navega p{
+	
+	display: inline;
+	font-size:40px;
+
+}
+.navega a{
+	color:#3498eb;
+	background-color:#c3cfe8;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media all and (min-width: 1200px) {
+
+	*{
+        box-sizing:border-box;
+        }
+
+
+
+}
