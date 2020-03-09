@@ -142,6 +142,12 @@ a,a:hover, a:visited, a:active{
 .navega a{
 	color:#3498eb;
 	background-color:#c3cfe8;
+
+}
+
+.navega a:hover{
+	box-shadow: 10px 10px lightgreen;
+	transition: 0.2s;
 }
 }
 
@@ -153,5 +159,77 @@ a,a:hover, a:visited, a:active{
         }
 
 
+*{
+        box-sizing:border-box;
+        }
+
+a,a:hover, a:visited, a:active{
+	text-decoration:none;
+}
+#cursos img{
+	width:100%;
+}
+
+#cursos h1, h2, h3 {
+	text-align:center;
+}
+#cursosoutros img{
+	width:100%;
+}
+#cursosoutros h1, h2, h3 {
+	text-align:center;
+}
+
+.topo{
+	width:100%;
+	padding:2%; 
+	position: absolute; 
+	margin:auto; 
+	box-shadow: 1px 2px 3px #2c3d4aa1;
+	background-image: url("edu.svg");
+	z-index: -1;
+	background-size: 300px 300px;
+}
+
+.topo p {
+	font-size: 70px; 
+	display: inline;
+	margin-right: 20px;
+	text-shadow: 2px 2px 1px  lightblue;
 
 }
+
+.topo span{
+	font-size: 40px;
+	
+	
+}
+
+.navega{
+	position:relative;
+	bottom:-13px;
+	box-shadow: 1px 2px 3px #2c3d4aa1;
+	text-align: right;
+	margin:auto;
+	padding: 5px;
+	}
+
+	.navega p {
+	
+	display: inline;
+	font-size:40px;
+	box-shadow:2px 2px 1px #aabbcc;
+
+}
+.navega a {
+	background-color:#85aae6;
+    color:#1a3259;
+    
+
+
+}
+
+.navega a:hover{
+	box-shadow: 10px 10px lightgreen;
+}
+
