@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+	<title>Empresa com um nome Muito Bom de Educação</title>
+	<meta charset="UTF-8">
+	<meta spellcheck="true">
+	<meta  name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="CodeCssCode.css" media="All and (color), projection and (color)">
+	<script src="codejs.js"></script>
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower&display=swap" rel="stylesheet">
+	<style type="text/css">
+
+	</style>
+</head>
+	<body>
+		
+				<header class="topo topo topo401 topoGG">
+					<p style=""> \Ü/ Empresa Muito Boa</p><span style=""><em>Educacional</em></span>
+
+					<section >
+						<nav class="navega">
+							<p><a href="#">Sobre</a></p>
+							<p><a href="#">Cursos</a></p>
+							<p><a href="#">Contato</a></p>
+						</nav>	 
+	
+					</section>
+
+				</header>
+			
+
+			
+
+
+				<aside>
+					
+				</aside>
+
+				<footer>
+					
+				</footer>	
+	</body>
+	
+	<script type="text/javascript">
+		
+	</script>
+	
+</html>		
