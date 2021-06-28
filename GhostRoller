@@ -64,16 +64,21 @@ background: #fff;
 </style>
 <script>
 
-
+const rollDice = (min, max) => {
+const rolling = Math.floor(Math.random() *(max-min)+min);
+if(rolling === max) {
+`"100! GG!"`
+}
+}
 
 
 function dCem(){
   let min = 1;
   let max = 101;
-  document.getElementById("r100").innerHTML = Math.floor(Math.random() *(max-min)+min);
+  document.getElementById("r100").innerHTML = 
 var dcem = document.getElementById("r100").innerHTML = Math.floor(Math.random() *(max-min)+min); 
 
- if( dcem == 100 ){document.getElementById("r100").innerHTML = ("100! GG!"); }
+ if( dcem == 100 ){document.getElementById("r100").innerHTML = (); }
 
   
 
