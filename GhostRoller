@@ -67,7 +67,7 @@ background: #fff;
 const rollDice = (min, max) => {
 const rolling = Math.floor(Math.random() *(max-min)+min);
 if(rolling === max) {
-`"100! GG!"`
+`${max}! GG!"`
 }
 }
 
